@@ -1,0 +1,39 @@
+<!--1.An input element for the user to enter the mortgage loan balance in US dollars.
+
+2.An input element for the user to enter the annual percentage rate of charge (APR).
+
+3.An input element for the user to enter the loan term in years.
+
+4.A select element for the user to select a period, populated with option elements where the value attribute is set to the available periods, in the case, either 'monthly' or 'bimonthly', and the content inside of the option elements represents the corresponding number of periods over a year (12 or 6).
+
+5.A button element for the user to calculate their monthly mortgage payment based on the above inputs.
+
+6.A p element to display the expected output.
+
+7.Also make sure you reference your index.js before the </body> tag.-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Mortgage Calculator</title>
+	</head>
+
+	<body>
+		<h1>JQuery Mortgage Calculator</h1>
+		<form>
+			<input type="text" id ="loanbalance" placeholder="Loan Balance" "><br>
+			<input type="text" id ="apr" placeholder="Interest Rate (%)"><br>
+			<input type="text" id="loanterm" placeholder="Loan Term (years)"><br>
+			<select id="period">
+				<option value="6">6 Months</option>
+				<option value="12">12 Months</option>
+			</select>
+		</form><br>
+		<button type="button" id="main_button">Submit</button>
+		<p id="mortgageamount"></p>
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="index.js"></script>
+	</body>
+</html>
