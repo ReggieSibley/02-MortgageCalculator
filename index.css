@@ -4,9 +4,15 @@ body {
 	background-image: url("http://koowallpapers.com/wp-content/uploads/2013/06/bora-bora-wallpaper-widescreen.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	
+
 }
 
+/*#main_header {
+
+	background-color: black;
+
+}
+*/
 h1 {
 	color: white;
 	text-align: center;
@@ -18,18 +24,29 @@ h1 {
 
 p {
 
-	color: #fff;
+	color: black;
 	text-align: center;
-	font-size: 2em;
+	font-size: 1.1em;
 	font-family: 'Lobster', cursive;
 	text-decoration: underline;
+
+}
+
+#mortgageanimate {
+
+background-color: #e4e7ec;
+max-width: 400px;
+margin-left: auto; 
+margin-right: auto;
+border-color: lightblue;
+border-radius: 8px;
 }
 
 #mortgageform {
 
 background-color: #e4e7ec;
 width: 220px;
-margin-left: auto; ;
+margin-left: auto; 
 margin-right: auto;
 padding: 30px 0px 10px 30px;
 border-style: solid;
@@ -46,6 +63,7 @@ border-style: solid;
 border-radius: 5px;
 border-width: 2px;
 margin-top: 5px;
+padding-top: 5px;
 
 	
 }
@@ -55,4 +73,9 @@ margin-top: 5px;
 text-align: center;
 font-family: 'Lobster', cursive;
 
+}
+
+#container {
+
+	padding-top: 50px;
 }

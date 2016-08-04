@@ -10,7 +10,11 @@
 	</head>
 
 	<body>
-		<h1>JQuery Mortgage Calculator</h1>
+		<div id = "main_header">
+			<h1>JQuery Mortgage Calculator</h1>
+		</div>
+		<hr>
+		<div id = "container">
 		<div id ="mortgageform">
 			<form class="pure-form pure-form-stacked">
 				<input type="number" id ="loanbalance" placeholder="Loan Balance" "><br>
@@ -23,12 +27,15 @@
 			</form><br>
 		</div>
 		<div id="btn">
-			<button type="button" id="main_button" class="pure-button pure-button-primary">Submit</button>
+			<button type="button" id="main_button" class="pure-button pure-button-success">Submit</button>
 		</div>
+		</div>
+		
 		<div id = "mortgageanimate">
 		<p id="mortgageamount"></p>
 		</div>
 		<script src="bower_components/jquery/dist/jquery.js"></script>
 		<script src="index.js"></script>
+		
 	</body>
 </html>
